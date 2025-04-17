@@ -1,30 +1,14 @@
+import FooterCard from "./FooterCard";
 import IntroCard from "./IntroCard";
 import SocialCard from "./SocialCard";
 
 const App = () => {
   return (
-    <div className="h-screen w-screen flex bg-neutral-900">
-      <div className="m-auto">
+    <div className="flex h-screen w-screen bg-neutral-900">
+      <div className="m-auto flex flex-col">
         <IntroCard />
-        <div className="mt-6">
-          <SocialCard />
-        </div>
-        <div className="justify-center flex mt-6">
-          <a
-            href="mailto:josh@joshlawrence.dev?subject=Introduction&amp;body=Hello Josh,"
-            className="text-neutral-600 hover:text-neutral-300"
-          >
-            email me
-          </a>
-        </div>
-        <div className="justify-center flex mt-6">
-          <a
-            href="https://docs.google.com/document/d/1aiMQC6s7wtWikPZxbKy02qgMqEe05R4rRMk2g9OvRg0/edit?usp=sharing"
-            className="text-neutral-600 hover:text-neutral-300"
-          >
-            resume
-          </a>
-        </div>
+        <SocialCard />
+        <FooterCard />
       </div>
     </div>
   );
