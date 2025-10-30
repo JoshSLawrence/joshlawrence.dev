@@ -5,7 +5,7 @@ const IntroCard = () => {
         Josh Lawrence
       </h2>
       <h3 className="pb-2 text-left text-lg text-neutral-400">
-        Cloud Architect, Quadax Inc.
+        Senior Cloud Architect, DevOps @ Quadax Inc.
       </h3>
       <div className="flex flex-col gap-2">
         <p>Hey, thanks for stopping by!</p>
