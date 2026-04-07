@@ -11,11 +11,11 @@ const IntroCard = () => {
       <div className="flex flex-col gap-2">
         <p>Hey, thanks for stopping by!</p>
         <p>
-          I'm Josh, a Microsoft certified Azure Solutions Architect based in
-          Ohio.
+          I'm Josh, a 4x Microsoft certified Architect based in
+          Seattle, Washington.
         </p>
         <p>
-          For the past seven years, I have been dedicated to delivering
+          For the past eight years, I have been dedicated to delivering
           innovative, scalable solutions that address complex challenges for
           clients in both the public and private sectors.
         </p>
