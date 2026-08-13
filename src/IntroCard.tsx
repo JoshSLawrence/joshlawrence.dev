@@ -15,7 +15,7 @@ const IntroCard = () => {
           Seattle, Washington.
         </p>
         <p>
-          For the past eight years, I have been dedicated to delivering
+          For the past 7 years, I have been dedicated to delivering
           innovative, scalable solutions that address complex challenges for
           clients in both the public and private sectors.
         </p>
